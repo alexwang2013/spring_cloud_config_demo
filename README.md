@@ -10,9 +10,10 @@ curl http://localhost:8080/whoami/alex
 * check the current config
 http://localhost:8888/config-client/development/master
 
-* change properties 
-** change properties in alexrepo/config-client-development.properties
-** commit new change to alexrepo.
+* change properties
+
+   * change properties in alexrepo/config-client-development.properties
+   * commit new change to alexrepo.
 
 * refresh config server
 curl -X POST http://localhost:8888/actuator/refresh
